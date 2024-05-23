@@ -12,32 +12,32 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="myOrange"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a <b className="purple">Web and Mobile Developer</b> whose
+              I'm a <b className="myOrange">Web and Mobile Developer</b> whose
               hobby is robotic 🤖
               <br />
               <br />
               I'm fluent in
               <i>
-                <b className="purple"> JavaScript, PHP, and C language </b>
+                <b className="myOrange"> JavaScript, PHP, and C language </b>
               </i>
               💻🌐
               <br />
               <br />
               My fields of interest are &nbsp;
               <i>
-                <b className="purple">Cross-Platform and Blockchain</b>, also in
-                areas related to <b className="purple">Robotic</b>.
+                <b className="myOrange">Cross-Platform and Blockchain</b>, also
+                in areas related to <b className="myOrange">Robotic</b>.
               </i>
               <br />
               <br />I like learning new things because one of the principles
               that I like is{" "}
               <i>
-                <b className="purple">Plenus venter non studet libenter</b>,
+                <b className="myOrange">Plenus venter non studet libenter</b>,
                 which means{" "}
-                <b className="purple">A full belly does not like studying</b>.
+                <b className="myOrange">A full belly does not like studying</b>.
               </i>
               <br />
               <br />
@@ -45,7 +45,7 @@ function Home2() {
               <b>
                 <a
                   href="../About/"
-                  className="purple"
+                  className="myOrange"
                   style={{ textDecoration: "none" }}
                 >
                   About Me
@@ -55,7 +55,7 @@ function Home2() {
               <b>
                 <a
                   href="../Projects/"
-                  className="purple"
+                  className="myOrange"
                   style={{ textDecoration: "none" }}
                 >
                   My Projects
@@ -80,7 +80,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="myOrange">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

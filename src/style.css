@@ -4,7 +4,7 @@ html {
     --imp-text-color: #fead1e;
 }
 
-.purple {
+.myOrange {
     color: var(--imp-text-color) !important;
 }
 

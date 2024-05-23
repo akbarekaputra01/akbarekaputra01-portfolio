@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Akbar Eka Putra </span>
-            from <span className="purple"> Bekasi, Indonesia.</span>
+            Hi Everyone, I am <span className="myOrange">Akbar Eka Putra </span>
+            from <span className="myOrange"> Bekasi, Indonesia.</span>
             <br />
             As a student at BINUS University majoring in computer science,
             <br />
