@@ -36,7 +36,7 @@ function Home2() {
               <i>
                 <b className="purple">Plenus venter non studet libenter</b>,
                 which means{" "}
-                <b className="purple">A full belly does not like studying.</b>
+                <b className="purple">A full belly does not like studying</b>.
               </i>
               <br />
               <br />
@@ -56,6 +56,7 @@ function Home2() {
               >
                 My Projects
               </a>
+              .
             </p>
           </Col>
 
