@@ -20,8 +20,9 @@ function Home2() {
               <br />
               I'm fluent in
               <i>
-                <b className="purple"> JavaScript, PHP, and C language 💻🌐</b>
+                <b className="purple"> JavaScript, PHP, and C language </b>
               </i>
+              💻🌐
               <br />
               <br />
               My fields of interest are &nbsp;
