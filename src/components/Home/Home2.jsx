@@ -28,7 +28,7 @@ function Home2() {
               My fields of interest are &nbsp;
               <i>
                 <b className="purple">Cross-Platform and Blockchain</b>, also in
-                areas related to <b className="purple">Robotic.</b>
+                areas related to <b className="purple">Robotic</b>.
               </i>
               <br />
               <br />I like learning new things because one of the principles
@@ -41,21 +41,25 @@ function Home2() {
               <br />
               <br />
               Explore more{" "}
-              <a
-                href="../About/"
-                className="purple"
-                style={{ textDecoration: "none" }}
-              >
-                About Me
-              </a>{" "}
+              <b>
+                <a
+                  href="../About/"
+                  className="purple"
+                  style={{ textDecoration: "none" }}
+                >
+                  About Me
+                </a>{" "}
+              </b>
               and{" "}
-              <a
-                href="../Projects/"
-                className="purple"
-                style={{ textDecoration: "none" }}
-              >
-                My Projects
-              </a>
+              <b>
+                <a
+                  href="../Projects/"
+                  className="purple"
+                  style={{ textDecoration: "none" }}
+                >
+                  My Projects
+                </a>
+              </b>
               .
             </p>
           </Col>
