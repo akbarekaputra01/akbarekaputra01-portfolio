@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/images/profilePicture.png";
+import profilePicture from "../../Assets/images/profilePicture.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -68,7 +68,7 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src={myImg}
+                src={profilePicture}
                 className="img-fluid"
                 alt="profilePicture"
                 width={"75%"}
