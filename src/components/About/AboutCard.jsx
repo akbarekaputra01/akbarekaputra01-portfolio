@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="myOrange">Akbar Eka Putra </span>
             from <span className="myOrange"> Bekasi, Indonesia.</span>
-            <br />
-            As a student at BINUS University majoring in computer science,
+            {/* <br />
+            As a student at BINUS University majoring in computer science, */}
             <br />
             I really fell in love with programming and robotic.
             <br />
