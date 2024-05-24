@@ -3,11 +3,20 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsDownload, BsGithub } from "react-icons/bs";
+import { Image } from "react-bootstrap";
 
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Image
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+        style={{
+          borderRadius: "3px",
+          margin: "16px",
+        }}
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
