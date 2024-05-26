@@ -49,7 +49,7 @@ function Projects() {
               title="Rabka Anime List (App)"
               description="Rabka Anime List is an application that makes it easy for users to view anime lists from the Jikan API which is integrated with Firebase, as well as an attractive interface, and user can login."
               ghLink="https://github.com/akbarekaputra01/animelist_flutter"
-              // appLink="https://github.com/akbarekaputra01/animelist_flutter/releases"
+              appLink="https://github.com/akbarekaputra01/animelist_flutter/releases"
             />
           </Col>
 
