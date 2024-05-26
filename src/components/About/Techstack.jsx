@@ -16,7 +16,7 @@ import {
   DiFirebase,
   DiSwift,
 } from "react-icons/di";
-import { SiArduino, SiC, SiYarn, SiExpress } from "react-icons/si";
+import { SiArduino, SiC, SiYarn, SiExpress, SiNestjs } from "react-icons/si";
 import {
   TbBrandFlutter,
   TbBrandNextjs,
@@ -80,6 +80,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandNextjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandFlutter />
