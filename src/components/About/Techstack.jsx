@@ -7,7 +7,6 @@ import {
   DiGit,
   DiHtml5,
   DiCss3,
-  DiJavascript,
   DiPhp,
   DiBootstrap,
   DiGithub,
@@ -16,7 +15,14 @@ import {
   DiFirebase,
   DiSwift,
 } from "react-icons/di";
-import { SiArduino, SiC, SiYarn, SiExpress, SiNestjs } from "react-icons/si";
+import {
+  SiArduino,
+  SiC,
+  SiYarn,
+  SiExpress,
+  SiNestjs,
+  SiJavascript,
+} from "react-icons/si";
 import {
   TbBrandFlutter,
   TbBrandNextjs,
@@ -34,7 +40,7 @@ function Techstack() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript />
+        <SiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandTypescript />
