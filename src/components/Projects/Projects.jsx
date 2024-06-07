@@ -5,9 +5,10 @@ import Particle from "../Particle";
 import rabkagptImg from "../../Assets/Projects/rabkagpt.png";
 import rabkaMovieImg from "../../Assets/Projects/rabkaMovie.png";
 import rabkaAnimelistAppImg from "../../Assets/Projects/rabkaAnimelistApp.png";
-import RabkaAnimelistWebImg from "../../Assets/Projects/rabkaAnimelistWeb.png";
+import rabkaAnimelistWebImg from "../../Assets/Projects/rabkaAnimelistWeb.png";
 import smartAdminWebImg from "../../Assets/Projects/smartAdmin.png";
 import weatherAppSwiftUIImg from "../../Assets/Projects/weatherAppSwiftUI.png";
+import appetizerAppSwiftUIImg from "../../Assets/Projects/appetizerAppSwiftUI.png";
 
 function Projects() {
   return (
@@ -56,6 +57,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={appetizerAppSwiftUIImg}
+              isBlog={false}
+              title="Appetizer App (Mobile)"
+              description="The Appetizer App is an online order application designed to provide users with a seamless experience for browsing appetizer lists, placing orders, viewing order details, and managing their account."
+              ghLink="https://github.com/akbarekaputra01/Appetizers-SwiftUI"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={weatherAppSwiftUIImg}
               isBlog={false}
               title="Weather App (Mobile)"
@@ -77,7 +88,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={RabkaAnimelistWebImg}
+              imgPath={rabkaAnimelistWebImg}
               isBlog={false}
               title="Rabka Anime List (Web)"
               description="Rabka Anime List is a Next.js based website that allows users to manage their favorite anime lists. Equipped with a GitHub login feature and uses PostgreSQL with Prisma. Users can provide ratings and reviews of anime."
